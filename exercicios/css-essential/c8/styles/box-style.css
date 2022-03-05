@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.wrapper{
+    font-size: 20px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+header, div > footer{
+    background-color: lightgreen;
+    height: 100px;
+}
+
+aside{
+    padding: 20px;
+    background-color: lightblue;
+    height: 350px;
+    width: 200px;
+    float: left;
+}
+
+main{
+    padding: 20px;
+    background-color: lightcoral;
+    height: 350px;
+    width: 700px;
+    float: right;
+}
+
+div.wrapper > footer{
+    clear: both;
+}
+

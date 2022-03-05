@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: pink;
+}
+
+h2.example{
+    color: orange;
+}
+
+.example2{
+    background-color: gray;
+}
+
+.example.example2{
+    font-size: 40px;
+}
+
+#example{
+    background-color: unset;
+}

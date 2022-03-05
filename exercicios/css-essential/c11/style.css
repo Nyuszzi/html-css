@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-1{
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.header-wrap{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #231a31;
+    --color2: #372549;
+    --color3: #774C60;
+    --color4: #B75D69;
+    --color5: #EACDC2;
+    --color6: #D65780;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.664) 50%, rgb(75, 49, 49)) ;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+span.sp1{
+    color: var(--color1);
+}
+
+span.sp2{
+    color: var(--color2);
+}
+
+span.sp3{
+    color: var(--color3);
+}
+
+span.sp4{
+    color: var(--color4);
+}
+
+span.sp5{
+    color: var(--color5);
+}
+
+span.sp6{
+    color: var(--color6);
+}

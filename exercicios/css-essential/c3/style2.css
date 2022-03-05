@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #231a31;
+    --color2: #372549;
+    --color3: #774C60;
+    --color4: #B75D69;
+    --color5: #EACDC2;
+    --color6: #D65780;
+}
+
+body{
+    background-color: black;
+    font-size: 25px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.527), black 70%);
+}
+
+.sp1, .sp2, .sp3, .sp4, .sp5, .sp6{
+    transition-duration: 1.5s;
+}
+
+span.sp1:hover{
+    color: var(--color1)
+}
+
+span.sp2:hover{
+    color: var(--color2);
+}
+
+span.sp3:hover{
+    color: var(--color3);
+}
+
+span.sp4:hover{
+    color: var(--color4);
+}
+
+span.sp5:hover{
+    color: var(--color5);
+}
+
+span.sp6:hover{
+    color: var(--color6);
+}
+

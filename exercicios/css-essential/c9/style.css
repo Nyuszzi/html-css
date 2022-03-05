@@ -1,0 +1,51 @@
+@charset "Utf-8";
+
+body{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: red;
+}
+
+section > p{
+    color: blue;
+}
+
+h1 + p{
+    text-decoration: underline;
+}
+
+h1 ~ p{
+    color: lightseagreen;
+}
+
+h2 + p{
+    color: sandybrown;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+article p:first-child{
+    color: green;
+}
+
+article p:last-child{
+    color: hotpink;
+}
+
+.divider > p{
+    border-bottom: 1px dashed black;
+    margin: 25px 0px;
+}
+
+.divider > p:last-of-type{
+    border-bottom: none;
+}
+
+.divider{
+    border-bottom: 1px dashed black;
+    margin: 25px 0px;
+}

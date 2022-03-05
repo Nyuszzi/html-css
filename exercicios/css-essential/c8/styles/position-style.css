@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    font-size: 25px;
+}
+
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.parent{
+    border: 1px solid red;
+    position: relative;
+    z-index: 100;
+}
+
+.box{
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+}
+
+.relative{
+    background-color: lightblue;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+
+.absolute{
+    background-color: pink;
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+}
+
+.fixed{
+    background-color: lightgreen;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sticky{
+    background-color: lightsalmon;
+    position: sticky;
+    top: 10px;
+}

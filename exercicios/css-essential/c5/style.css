@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.first, .second{
+    background-color: lightgreen;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+span{
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.first{
+    margin-bottom: 0px;
+}
+
+.second{
+    margin-top: 1px;
+}
+
+.margin{
+    margin-left: -7px;
+}
+
+section{
+    background-color: lightblue
+}
+
